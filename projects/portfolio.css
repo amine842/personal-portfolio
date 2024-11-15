@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(2, 2, 15);
+}
+
+#header{
+    background-color: rgb(25, 25, 80);
+    display: flex;
+}
+
+h1{
+    width: 50%;
+    color: ;
+}
+
+#navbar{
+    width: 50%;
+}
+
+#list{
+    display: flex;
+}
+
+#list li {
+    margin-left: 20px;
+    list-style: none;
+    
+}
+#list a {
+    text-decoration: none;
+    color: aliceblue;
+}

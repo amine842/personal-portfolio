@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first web page</title>
+    <link rel="stylesheet" href="stylewebpage2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div id="navbar"><img src="..\images\jovian_logo.svg" width="80px" alt=""></div>
+        <div><img id="banner" src="..\images\unplash3.avif" alt="Job" style="width: 1400px;height: 300px;"></div>
+        <h1 >about Amine</h1>
+        <div id="about">
+            <div id="description">    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Rem nulla, sequi excepturi ipsam voluptates explicabo
+                 dicta voluptatem eum maxime veritatis earum inventore, 
+                ducimus suscipit possimus consequuntur,
+                corporis delectus temporibus minima.
+                <p>we also offer 2 industry-focused bootcamps:
+                   <ol>
+                       <li><a href="https://www.web3school.com" target="_blank">Amine Full stack developer Bootcamp</a></li>
+                       <li><a href="https://www.web3schol.com" target="_blank">Jovian Data Science Bootcamp</a></li>
+                   </ol></p></div>
+            <div id="team"><img id="team-image" src="..\images\unplash1.avif" alt="job" height="200px"></div>
+                </div>
+                <div> 
+        <h2 style="text-align: center;">Job Opprtinities</h2>
+         
+           <div id="jobs">
+            <table id="jobs-table">
+                <tr class="jobs-table-header">
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                </tr>
+                <tr class="jobs-table-header">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                <tr class="jobs-table-data">
+                    <td>Frontend developer</td>
+                    <td>Casablanca</td>
+                    <td>Maroc</td>
+                    <td>$120000</td>
+                    <td>fub 5 2024</td>
+                </tr>
+
+                <tr class="jobs-table-data">
+                    <td>Backend developer</td>
+                    <td>Rabat</td>
+                    <td>Maroc</td>
+                    <td>$83000</td>
+                    <td>Jun 7 2023</td>
+                </tr>
+                <tr class="jobs-table-data">
+                    <td>Data Science</td>
+                    <td id="remote" colspan="2">Remote</td>
+                    <td>$91000</td>
+                    <td>Jun 19 2023</td>
+                </tr>
+                <tr class="jobs-table-data">
+                    <td>Backend developer</td>
+                    <td>Marrackech</td>
+                    <td>Maroc</td>
+                    <td>$143000</td>
+                    <td>Mar 7 2024</td>
+                </tr>
+            </table>
+           </div>
+           <form action="" id="application-form">
+            <div id="form">
+
+            <h2>Submit Your Application</h2>
+            <div class="Application-form-input">
+                <label for="Name">Full Name</label><br>
+                <input type="text" id="Name" name="Name" placeholder="AMINE ELGATE" required>
+            </div>
+            <div class="Application-form-input">
+                <label for="Email">Email</label><br>
+                <input type="email" id="Email" name="Email" placeholder="amineelgate@gmail.com" required>
+            </div>
+            <div class="Application-form-input">
+                <label for="Phone">Phone</label><br>
+                <input type="tel" id="Phone" name="Phone" placeholder="0611401450" required>
+            </div>
+            <div class="Application-form-input">
+                <label for="date">date</label><br>
+                <input type="date" id="date" name="date" placeholder="16/07/2002">
+            </div>
+            <div class="Application-form-input">
+                <label for="select">position applied for</label><br>
+                <select name="options" id="select" >
+                    <option value="jobs-options">Frontend developer</option>
+                    <option value="jobs-options">Backend developer</option>
+                    <option value="jobs-options">Dta Science</option>
+                    <option value="jobs-options">ML engineer</option>
+                    <option selected value="jobs-options"></option>
+                </select>
+            </div>
+            <div class="Application-form-input">
+                <label for="file">upload resume</label><br>
+                <input type="file" id="file" name="file" required>
+            </div>
+            <div class="Application-form-input">
+                <label for="textarea">cover letter</label><br>
+                <textarea name="textarea" id="textarea" placeholder="Explainwhat makes suitable for the job"></textarea>
+            </div>
+            <div class="Application-form-input">
+                <label for="checkbox">I agree to the terms and conditions</label>
+                <input type="checkbox" id="checkbox" name="checkbox" required
+                
+                >
+            </div>
+            <div class="Application-form-input">
+                <input type="submit" value="save">
+            </div>
+        </div>
+           </form>
+        
+    
+
+
+             <div id="footer"> <ul class="footer-list">
+                <li><a href="https://www.web3schol.com" target="_blank">Courses</a></li>
+                <li><a href="https://www.web3schol.com" target="_blank">Programs</a></li>
+                <li><a href="https://www.web3schol.com" target="_blank">youtube</a></li>
+             </ul>
+             <span class="footer-span">&copy; 2024 Amine</span>
+            </div>
+    </div>
+    
+</body>
+</html>

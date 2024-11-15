@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto sans-serif;
+    font-size: 16px;
+    background-color: aliceblue;
+
+}
+
+a  {
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    color: blue;
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inter;
+    font-weight: 500;
+}
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2rem;}
+h1 {font-size: 1.75rem;}
+
+
+h1 {
+    text-align: center;
+}
+
+#banner {
+    object-fit: cover;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-family: "Noto Sans" sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    text-shadow: rgb(146, 146, 18);
+}
+
+#team {
+    width: 50%;
+}
+#team-image {
+    width: 100%;
+    border: 5px solid black;
+    border-color: red;
+}
+
+#banner {
+    width: 100%;
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0  auto;
+
+
+}
+
+#jobs-table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.jobs-table-header th{
+    border: 1px solid black;
+    padding: 6px;
+    text-align: left;
+    background-color: #7242f5 ;
+    
+}
+
+.jobs-table-data td{
+    border:  1px solid black; /* border-right:  1px solid black;
+    */
+    padding: 6px;
+}
+
+#jobs-table tr:nth-child(odd)  {     /* tr:nth-child(even) */
+    background-color: rgb(235, 135, 140);
+}
+
+#jobs-table tr:nth-child(even)  {     /* tr:nth-child(odd) */
+    background-color: rgb(208, 235, 135);
+}
+
+#remote {
+    text-align: center;
+}
+
+#application-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 600;
+}
+
+#application-form input{
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.application-form-input input [type="submit"]{
+    padding: 40px;
+    background-color: blue;
+}
+
+.Application-form-input textarea{
+    width: 80%;
+    height: 50;
+}
+
+#footer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.footer-list li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.footer-span {
+     color: grey;
+}
