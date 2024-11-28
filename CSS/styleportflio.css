@@ -33,6 +33,18 @@ nav,
   display: flex;
 }
 
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: rgba(100, 88, 88, 0.8);
+  width: 100%;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   justify-content: space-around;
   align-items: center;
